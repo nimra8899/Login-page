@@ -1,0 +1,147 @@
+*{
+    
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+
+}
+body{
+    background-color:lightblue;
+}
+
+.maindiv{
+    border: 66px solis black;
+    display: flex;
+    justify-content: space-between;
+    width: 700px;
+    height: 400px;
+    background-color: gray;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+}
+.login{
+    background: lightgray;
+    color: #3b5998;
+    font-size: 40px;
+    font-weight: bold;
+    flex: 1;
+    padding-left: 10px;
+
+    
+    box-sizing: border-box;}
+   
+.openid{
+
+    color:#3b5998;
+    font-size: 40px;
+    font-weight: bold;
+    background: lightgray;
+    flex: 1;
+    text-align: end;
+    padding-right: 10px;
+    
+    box-sizing: border-box;
+}
+a {
+    color: gray;
+    text-decoration: none;
+    display: block;
+    margin: 10px 0;
+}
+.login input {
+    width: calc(100% - 20px);
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+.password{
+    font-size: 15px;
+    color: grey;
+}
+#show-password{
+    margin-left: 150px;
+}
+
+.options {
+    
+    font-size: 15px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.options input[type="checkbox"] {
+    margin-right: 5px;
+    height: 20px;
+}
+
+.login-button{
+    font-size: 20px;
+    font-weight: bold;
+    width: 130px;
+    height: 50px;
+    color: aliceblue;
+    border-radius: 5px;
+    cursor: pointer;
+    display: block;
+    background-color: #3b5998;
+}
+input[type="password"] {
+    padding-top: 100px;
+}
+p{
+    color: gray;
+    font-size: 15px;
+    margin-top: 40px;
+    text-align: center;
+
+}
+.social-button{
+    text-align: center;
+    margin: 20px 0;
+
+}
+.fb{
+    background-color: #3b5998;
+    color: #fff;
+    width: 100px;
+    height: 30px;
+    cursor: pointer;
+    font-size: bold;
+    border: 1px solid lightgray;
+}
+.google{
+    background-color: #3b5998;
+    color: #fff;
+    width: 100px;
+    height: 30px;
+    cursor: pointer;
+    font-size: bold;
+    border: 1px solid lightgray;
+}
+.twitter{
+    background-color: #3b5998;
+    color: #fff;
+    width: 100px;
+    height: 30px;
+    cursor: pointer;
+    font-size: bold;
+    border: 1px solid lightgray;
+}
+.openidlogin input{
+    width: 290px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+.go{
+    width: 35px;
+    height: 35px;
+    background-color: #3b5998;
+    color: #fff;
+    font-weight: bold;
+}
